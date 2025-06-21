@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <header.hpp>
 
 class test{
     private:
@@ -10,6 +11,8 @@ class test{
 
 int main(){
     std::vector<test> h;
+    hello p;
+    p.hello_world();
     return 0;
 }
 
