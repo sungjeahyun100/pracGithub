@@ -10,6 +10,7 @@ class test{
 
 int main(){
     std::vector<test> h;
+    h.at(0).b = 1;
     return 0;
 }
 
